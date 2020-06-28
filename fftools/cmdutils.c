@@ -2295,7 +2295,7 @@ static int show_sinks_sources_parse_arg(const char *arg, char **dev, AVDictionar
         }
     } else
         printf("\nDevice name is not provided.\n"
-                "You can pass devicename[,opt1=val1[,opt2=val2...]] as an argument.\n\n");
+                "You can pass devicename[,opt1=val1[:opt2=val2...]] as an argument.\n\n");
     return 0;
 }
 
